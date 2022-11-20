@@ -1,0 +1,15 @@
+<h1>
+  Links list
+</h1>
+
+<ul>
+  <li *ngFor="Let link of links$ | async">
+
+      <a [routerLink]="['/links', link.name]">{{ link.name }}</a>
+
+      </a>
+
+  </li>
+</ul>
+
+<router-outlet></router-outlet>

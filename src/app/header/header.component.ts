@@ -22,6 +22,7 @@ import { Component } from '@angular/core';
       <div class="navbar-start">
         <a class="navbar-item"routerLink="/" >Home</a>
         <a class="navbar-item"routerLink="/stories" >Stories</a>
+        <a class="navbar-item"routerLink="/community" >Useful Links</a>
         <a class="navbar-item"routerLink="/collections" >Collections</a>
         <a class="navbar-item"routerLink="/contact" >Get in Touch</a> 
         <a class="navbar-item"routerLink="/about" >About Us</a>
