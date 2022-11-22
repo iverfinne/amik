@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-about-us',
+  selector: 'app-user-single',
   template: `
     <p>
-      about-us works!
+      user-single works!
     </p>
   `,
   styles: [
   ]
 })
-export class AboutUsComponent {
+export class UserSingleComponent {
 
 }

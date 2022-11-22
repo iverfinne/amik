@@ -42,6 +42,13 @@ const routes: Routes = [
     path: 'contact',
     component: ContactComponent,
   },
+  {
+    path: 'users',
+    loadChildren: () => import('./users/users.module').then(m => m.UsersModule)
+  },
+  {
+    path: 'V-msaUH1bi9eTOemGILScHsD0qESnFxRqDPOxOIbL9ZhSZkCzlF6A61rwqoTXDUH.M0-GObbb5ePi63ASQsPKBrDqfgayGnOWpyrEF0nHqug',
+  },
 ];
 
 @NgModule({

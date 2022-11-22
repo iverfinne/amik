@@ -23,6 +23,7 @@
     "bulma": "^0.9.4",
     "firebase": "^9.14.0",
     "firebase-admin": "^11.3.0",
+    "oninit": "^1.1.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
